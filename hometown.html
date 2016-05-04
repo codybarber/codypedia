@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Where I'm From</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <a href="index.html"><img src="title.png" alt="Codypedia" /></a><br>
+    <img src="hometown.png" alt="My Hometown" />
+
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.autohuren.world/locaties/ibiza/">auto huren ibiza</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:7,center:new google.maps.LatLng(33.9519347,-83.35756700000002),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.9519347,-83.35756700000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Athens, Georgia</strong><br>Athens, Ga<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    <p>
+      My hometown of Athens, Georgia is located in Northeast Georgia, about 60 miles from Atlanta. It has a population of roughly 192,000 people. It is also home to The Univeristy of Georgia.
+    </p>
+    <h2>About Me</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+
+  </body>
+</html>
